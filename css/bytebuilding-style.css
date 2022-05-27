@@ -191,13 +191,13 @@ html,body,h1,h2,h3,h4 {
     background-color: #000!important;
 }
 
-@media (min-width: 601px) {
+@media screen and (max-width: 992px) {
 	.bb-about-box-1, .bb-about-box-2, .bb-about-box-3, .bb-about-box-4 {
 	    width: 49.99999%;
 	}
 }
 
-@media (max-width: 601px) {
+@media screen and (max-width: 600px) {
 	.bb-about-box-1, .bb-about-box-2, .bb-about-box-3, .bb-about-box-4 {
 	    width: 99.99999%;
 	}
