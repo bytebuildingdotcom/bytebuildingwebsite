@@ -197,6 +197,12 @@ html,body,h1,h2,h3,h4 {
 	}
 }
 
+@media (max-width: 601px) {
+	.bb-about-box-1, .bb-about-box-2, .bb-about-box-3, .bb-about-box-4 {
+	    width: 99.99999%;
+	}
+}
+
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
