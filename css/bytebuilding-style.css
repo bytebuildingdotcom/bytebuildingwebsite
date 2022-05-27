@@ -1,4 +1,42 @@
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+
+.bb-nav {
+	top: 0;
+	position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.bb-nav-links {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    font-size: 18px!important;
+}
+
+.bb-nav-link {
+	width: 24.99999%;
+	float: left;
+}
+
+.bb-link {
+	display: block;
+    width: 100%;
+    
+    user-select: none;
+
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
