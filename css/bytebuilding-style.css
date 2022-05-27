@@ -1,4 +1,6 @@
-html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+html,body,h1,h2,h3,h4 {
+	font-family:"Lato", sans-serif
+}
 
 .bb-nav {
 	top: 0;
@@ -21,7 +23,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .bb-link {
 	display: block;
     width: 100%;
-    
+
     user-select: none;
 
     border: none;
