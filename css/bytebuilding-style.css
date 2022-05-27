@@ -20,6 +20,10 @@ html,body,h1,h2,h3,h4 {
 	float: left;
 }
 
+.bb-nav-link:hover{
+	background-color: #616161!important;
+}
+
 .bb-link {
 	display: block;
     width: 100%;
