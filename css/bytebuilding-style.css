@@ -203,6 +203,35 @@ html,body,h1,h2,h3,h4 {
 	}
 }
 
+.bb-who {
+    padding: 0 8px;
+}
+
+.bb-who-title {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    text-align: center!important;
+}
+
+.bb-who-title-span {
+	border-color: #616161!important;
+	padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    border-bottom: 6px solid #ccc!important;
+    font-size: 24px!important;
+}
+
+.bb-who-box {
+	padding: 0 8px;
+    margin-bottom: 16px!important;
+    float: left;
+}
+
+@media (min-width: 601px) {
+	.bb-who-box {
+	    width: 33.33333%;
+	}
+}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
