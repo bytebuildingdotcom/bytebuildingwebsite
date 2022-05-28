@@ -232,6 +232,40 @@ html,body,h1,h2,h3,h4 {
 	    width: 33.33333%;
 	}
 }
+
+.bb-who-card {
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.bb-who-container {
+    padding: 0.01em 16px;
+}
+
+.bb-who-opacity {
+    opacity: 0.60;
+}
+
+.bb-who-button {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    display: block;
+    width: 100%;
+    user-select: none;
+
+    order: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+
+    -webkit-appearance: button;
+    text-transform: none;
+    font: inherit;
+    margin: 0;
+}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
