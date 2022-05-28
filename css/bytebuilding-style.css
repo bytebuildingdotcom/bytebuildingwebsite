@@ -411,6 +411,42 @@ html,body,h1,h2,h3,h4 {
     align-items: flex-start;
 }
 
+.bb-footer {
+	color: #000!important;
+    background-color: #f1f1f1!important;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    text-align: center!important;
+    padding: 0.01em 16px;
+    display: block;
+}
+
+.bb-footer-link {
+    color: #fff!important;
+    background-color: #000!important;
+    margin: 16px!important;
+    user-select: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.bb-footer-right {
+    margin-right: 16px!important;
+}
+
+.bb-footer-section {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    font-size: 24px!important;
+}
+
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
