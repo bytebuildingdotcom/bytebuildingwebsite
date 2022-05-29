@@ -168,6 +168,7 @@ div {
 
 .bb-about {
     padding: 0.01em 16px;
+	height: 24rem;
 }
 
 .bb-about-title {
@@ -242,7 +243,6 @@ div {
 
 .bb-who {
     padding: 0.01em 16px;
-    height: 16rem;
 }
 
 .bb-who-title {
