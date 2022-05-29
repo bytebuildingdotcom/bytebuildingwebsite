@@ -240,49 +240,50 @@ div {
 	}
 }
 
-.about {
-    padding: 0 8px;
+.bb-who {
+    padding: 0.01em 16px;
+    height: 16rem;
 }
 
-.bb-about-title {
-    padding-top: 64px!important;
+.bb-who-title {
+	padding-top: 64px!important;
     padding-bottom: 64px!important;
     text-align: center!important;
 }
 
-.bb-about-title-span {
-	border-color: #616161!important;
-	padding-top: 16px!important;
+.bb-who-title-span {
+    border-color: #616161!important;
+    padding-top: 16px!important;
     padding-bottom: 16px!important;
     border-bottom: 6px solid #ccc!important;
     font-size: 24px!important;
 }
 
-.bb-about-box {
+.bb-who-box {
 	padding: 0 8px;
     margin-bottom: 16px!important;
     float: left;
 }
 
 @media (min-width: 601px) {
-	.bb-about-box {
+	.bb-who-box {
 	    width: 33.33333%;
 	}
 }
 
-.bb-about-card {
+.bb-who-card {
 	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.bb-about-container {
+.bb-who-container {
     padding: 0.01em 16px;
 }
 
-.bb-about-opacity {
+.bb-who-opacity {
     opacity: 0.60;
 }
 
-.bb-about-button {
+.bb-who-button {
     color: #000!important;
     background-color: #f1f1f1!important;
     display: block;
