@@ -394,11 +394,8 @@ div {
 }
 
 .bb-contact-title {
-    border-color: #616161!important;
-    padding-top: 16px!important;
-    padding-bottom: 16px!important;
-    border-bottom: 6px solid #ccc!important;
-    font-size: 24px!important;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
     text-align: center!important;
 }
 
