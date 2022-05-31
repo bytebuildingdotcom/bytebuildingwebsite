@@ -81,14 +81,13 @@ div {
 }
 
 .bb-title {
-	argin-top: 16px;
+	margin-top: 16px;
     margin-bottom: 16px;
     padding: 0.01em 16px;
 }
 
 .bb-about {
     padding: 0.01em 16px;
-	margin-bottom: 16rem;	
 }
 
 .bb-about-title {
@@ -163,6 +162,7 @@ div {
 
 .bb-slideshow {
 	padding: 0.01em 16px;
+	margin-top: 16rem;
 }
 
 .bb-display {
@@ -239,7 +239,7 @@ div {
 
 .bb-who {
     padding: 0.01em 16px;
-	margin-bottom: 16rem;
+	margin-top: 16rem;
 }
 
 .bb-who-title {
@@ -304,7 +304,7 @@ div {
 
 .bb-pricing {
     padding: 0.01em 16px;
-	margin-bottom: 16rem;
+	margin-top: 16rem;
 }
 
 .bb-pricing-title {
@@ -388,8 +388,7 @@ div {
 }
 
 .bb-contact {
-	padding-top: 64px!important;
-    padding-bottom: 64px!important;
+	margin-top: 16rem;
 }
 
 .bb-contact-title {
