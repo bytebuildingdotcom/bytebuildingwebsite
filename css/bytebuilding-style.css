@@ -393,6 +393,7 @@ div {
 .bb-contact-title {
     padding-top: 64px!important;
     text-align: center!important;
+    width: 100%;
 }
 
 .bb-contact-title-span {
