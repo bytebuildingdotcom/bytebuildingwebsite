@@ -392,7 +392,8 @@ div {
 }
 
 .bb-contact-title {
-    padding-top: 64px!important;
+    padding-bottom: 32px!important;
+    margin-top: 24rem;
     text-align: center!important;
     width: 100%;
 }
