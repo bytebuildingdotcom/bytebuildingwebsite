@@ -33,7 +33,7 @@ div {
 .bb-nav {
 	top: 0;
 	position: fixed;
-	height: 16.66rem;
+	height: 4rem;
     width: 100%;
     z-index: 1;
     background-color: #f1f1f1!important;
