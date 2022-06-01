@@ -160,11 +160,6 @@ div {
 	}
 }
 
-.bb-slideshow {
-	padding: 0.01em 16px;
-	margin-top: 16rem;
-}
-
 .bb-display {
 	position: relative;
 	display: block;
@@ -474,6 +469,5 @@ div {
     font-size: 24px!important;
 }
 
-.mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
