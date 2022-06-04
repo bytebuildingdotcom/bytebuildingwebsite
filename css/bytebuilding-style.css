@@ -76,7 +76,6 @@ div {
 .bb-container {
     padding: 0.01em 16px;
     margin-top: 4rem;
-    width: 100%;
 }
 
 .bb-container-header {
@@ -100,9 +99,22 @@ div {
     padding: 0.01em 16px;
     float: left;
     color: #000!important;
-    background-color: #f1f1f1!important;
     height: 15rem;
 }
+
+.bb-block-box-color-1 {
+    background-color: #f1f1f1!important;
+}
+.bb-block-box-color-2 {
+    background-color: #9e9e9e!important;
+}
+.bb-block-box-color-3 {
+    background-color: #616161!important;
+}
+.bb-block-box-color-4 {
+    background-color: #000!important;
+}
+
 
 @media screen and (max-width: 992px) {
 	.bb-about-box-1, .bb-about-box-2, .bb-about-box-3, .bb-about-box-4 {
