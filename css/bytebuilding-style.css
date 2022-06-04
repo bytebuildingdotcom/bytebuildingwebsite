@@ -16,6 +16,10 @@ div {
     display: block;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 
 .icon {
     cursor: pointer;
