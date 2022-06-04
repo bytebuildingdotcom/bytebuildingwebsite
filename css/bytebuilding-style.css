@@ -227,49 +227,6 @@ div {
     padding-bottom: 16px!important;
 }
 
-.bb-spacing {
-	letter-spacing: 4px;
-}
-
-.bb-opacity {
-	opacity: 0.60;
-}
-
-.bb-pricing-button-box {
-	color: #000!important;
-    background-color: #f1f1f1!important;
-    padding-top: 24px!important;
-    padding-bottom: 24px!important;
-}
-
-.bb-pricing-button {
-	color: #fff!important;
-    background-color: #4CAF50!important;
-    padding: 12px 24px!important;
-    user-select: none;
-    border: none;
-    display: inline-block;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-    -webkit-appearance: button;
-    text-transform: none;
-    font: inherit;
-    margin: 0;
-    writing-mode: horizontal-tb !important;
-    align-items: flex-start;
-    text-indent: 0px;
-    text-shadow: none;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-rendering: auto;
-    writing-mode: horizontal-tb !important;
-}
-
-
 .bb-contact-form {
     padding: 0.01em 16px;
 }
@@ -352,5 +309,4 @@ div {
     font-size: 24px!important;
 }
 
-.w3-tag, .fa {cursor:pointer}
-.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+.fa {cursor:pointer}
