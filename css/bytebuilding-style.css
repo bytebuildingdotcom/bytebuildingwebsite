@@ -169,86 +169,31 @@ div {
     top: 0;
 }
 
-
-.bb-slideshow-buttons {
-	color: #fff!important;
-    background-color: #616161!important;
-    padding: 8px 16px!important;
-    font-size: 24px!important;
-}
-
-.bb-slideshow-left {
-	float: left!important;
-}
-
-.bb-slideshow-right {
-	float: right!important;
-}
-
-.bb-slideshow-middle {
-	text-align: center!important;
-}
-.bb-slideshow-image {
-	height: 15px;
-    width: 15px;
-    padding: 0;
-    margin-top: 6px;
-    cursor: pointer;
-    border: 1px solid #ccc!important;
-    display: inline-block;
-    text-align: center;
-}
-
-.bb-white {
-	color: #000!important;
-    background-color: #fff!important;
-}
-
-.bb-who-box {
+.bb-hover-box{
 	padding: 0 8px;
     margin-bottom: 16px!important;
     float: left;
 }
 
 @media (min-width: 601px) {
-	.bb-who-box {
+	.bb-hover-box {
 	    width: 33.33333%;
 	}
 }
 
-.bb-who-card {
+.bb-hover-card {
 	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.bb-who-container {
-    padding: 0.01em 16px;
+.bb-hover-card-body {
+
 }
 
-.bb-who-opacity {
+.bb-hover-card-opacity {
     opacity: 0.60;
 }
 
-.bb-who-button {
-    color: #000!important;
-    background-color: #f1f1f1!important;
-    display: block;
-    width: 100%;
-    user-select: none;
 
-    order: none;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-
-    -webkit-appearance: button;
-    text-transform: none;
-    font: inherit;
-    margin: 0;
-}
 
 .bb-pricing-box {
     margin-bottom: 16px!important;
