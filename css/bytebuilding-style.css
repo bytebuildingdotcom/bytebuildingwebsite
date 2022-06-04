@@ -86,17 +86,17 @@ div {
     padding: 0.01em 16px;
 }
 
-.bb-about {
+.bb-container {
     padding: 0.01em 16px;
 }
 
-.bb-about-title {
+.bb-container-header {
 	padding-top: 32px!important;
     padding-bottom: 64px!important;
     text-align: center!important;
 }
 
-.bb-title-span {
+.bb-container-header-span {
     border-color: #616161!important;
     padding-top: 16px!important;
     padding-bottom: 16px!important;
@@ -232,16 +232,6 @@ div {
     background-color: #fff!important;
 }
 
-.bb-who {
-    padding: 0.01em 16px;
-}
-
-.bb-who-title {
-    padding-bottom: 64px!important;
-    text-align: center!important;
-}
-
-
 .bb-who-box {
 	padding: 0 8px;
     margin-bottom: 16px!important;
@@ -286,17 +276,6 @@ div {
     text-transform: none;
     font: inherit;
     margin: 0;
-}
-
-.bb-pricing {
-    padding: 0.01em 16px;
-	margin-top: 16rem;
-}
-
-.bb-pricing-title {
-    padding-top: 64px!important;
-    padding-bottom: 64px!important;
-    text-align: center!important;
 }
 
 .bb-pricing-box {
@@ -371,18 +350,6 @@ div {
     word-spacing: normal;
     text-rendering: auto;
     writing-mode: horizontal-tb !important;
-}
-
-.bb-contact {
-	margin-top: 16rem;
-	padding: 0.01em 16px;
-}
-
-.bb-contact-title {
-    padding-bottom: 32px!important;
-    margin-top: 24rem;
-    text-align: center!important;
-    width: 100%;
 }
 
 
