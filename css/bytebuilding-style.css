@@ -120,54 +120,55 @@ div {
 
 
 @media screen and (max-width: 992px) {
-	.bb-about-box-1, .bb-about-box-2, .bb-about-box-3, .bb-about-box-4 {
-	    width: 49.99999%;
+	.bb-block-box {
+	    width: 50%;
 	}
 }
 
 @media screen and (max-width: 600px) {
-	.bb-about-box-1, .bb-about-box-2, .bb-about-box-3, .bb-about-box-4 {
-	    width: 99.99999%;
+    .bb-block-box {
+	    width: 100%;
 	}
 }
 
-.bb-display {
+.bb-container-image {
 	position: relative;
 	display: block;
 }
 
-.bb-display-text {
+.bb-container-image-text {
 	padding-top: 32px!important;
     padding-bottom: 32px!important;
     padding: 0.01em 16px;
 }
 
-.bb-left {
+.bb-container-image-text-span {           
+    color: #000!important;
+    background-color: #fff!important;
+    padding: 12px 24px!important;
+    position: relative;
+    animation: animatebottom 0.4s;
+}
+
+.bb-container-left {
 	position: absolute;
     left: 0;
     top: 0;
 }
 
-.bb-middle {
+.bb-container-middle {
 	position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-.bb-right {
+.bb-container-right {
 	position: absolute;
     right: 0;
     top: 0;
 }
 
-.bb-span-text {
-	color: #000!important;
-    background-color: #fff!important;
-    padding: 12px 24px!important;
-    position: relative;
-    animation: animatebottom 0.4s;
-}
 
 .bb-slideshow-buttons {
 	color: #fff!important;
