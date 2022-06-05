@@ -8,6 +8,10 @@ div {
     display: block;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .icon {
     cursor: pointer;
     display: inline-block;
