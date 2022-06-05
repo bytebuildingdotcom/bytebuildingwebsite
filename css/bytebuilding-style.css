@@ -151,10 +151,16 @@ br {
     float: left;
 }
 
-@media (min-width: 601px) {
-	.bb-hover-box {
-	    width: 33.33333%;
-	}
+@media screen and (max-width: 992px) {
+    .bb-hover-box{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bb-hover-box{
+        width: 100%;
+    }
 }
 
 .bb-hover-card {
