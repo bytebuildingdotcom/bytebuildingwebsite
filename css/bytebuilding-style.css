@@ -8,6 +8,11 @@ div {
     display: block;
 }
 
+br {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
 * {
   box-sizing: border-box;
 }
