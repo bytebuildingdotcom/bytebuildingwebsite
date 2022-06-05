@@ -146,11 +146,12 @@ br {
 }
 
 .bb-hover-box{
-	width: 33.33%;
+	width: 33.333%;
     padding-top: 16px!important;
     padding-bottom: 16px!important;
     padding: 0.01em 16px;
     float: left;
+    height: 15rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -158,6 +159,7 @@ br {
         width: 100%;
     }
 }
+
 
 .bb-hover-card {
     height: 15rem;
@@ -175,14 +177,18 @@ br {
 
 
 .bb-list-box {
-    margin-bottom: 16px!important;
+    width: 33.333%;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding: 0.01em 16px;
     float: left;
+    height: 15rem;
 }
 
-@media (min-width: 601px) {
-	.bb-list-box {
-	    width: 33.33333%;
-	}
+@media screen and (max-width: 992px) {
+    .bb-list-box{
+        width: 100%;
+    }
 }
 
 .bb-list-box-ul {
