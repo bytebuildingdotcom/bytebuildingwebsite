@@ -149,6 +149,7 @@ br {
 	padding: 0 8px;
     margin-bottom: 16px!important;
     float: left;
+    width: 33.33%;
 }
 
 @media screen and (max-width: 992px) {
