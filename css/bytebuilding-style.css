@@ -136,6 +136,7 @@ div {
 }
 
 .bb-container-image {
+    margin-top: 4rem;
 	position: relative;
 	display: block;
 }
