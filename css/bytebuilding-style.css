@@ -140,39 +140,6 @@ div {
 	display: block;
 }
 
-.bb-container-image-text {
-	padding-top: 32px!important;
-    padding-bottom: 32px!important;
-    padding: 0.01em 16px;
-}
-
-.bb-container-image-text-span {           
-    color: #000!important;
-    background-color: #fff!important;
-    padding: 12px 24px!important;
-    position: relative;
-    animation: animatebottom 0.4s;
-}
-
-.bb-container-left {
-	position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.bb-container-middle {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.bb-container-right {
-	position: absolute;
-    right: 0;
-    top: 0;
-}
-
 .bb-hover-box{
 	padding: 0 8px;
     margin-bottom: 16px!important;
