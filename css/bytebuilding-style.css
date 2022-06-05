@@ -35,30 +35,26 @@ br {
     background-color: #f1f1f1!important;
 }
 
-.bb-nav-links {
-    color: #000!important;
-    font-size: 16px!important;
+.bb-nav-link {
+	width: 24.99999%;
+	float: left;
+    font-size: 16px!importan
+}
+
+.bb-nav-link:hover{
+	background-color: #616161!important;
 }
 
 @media screen and (max-width: 992px) {
-    .bb-nav-links {
+    .bb-nav-link {
         font-size: 12px!important;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .bb-nav-links {
+    .bb-nav-link {
         font-size: 8px!important;
     }
-}
-
-.bb-nav-link {
-	width: 24.99999%;
-	float: left;
-}
-
-.bb-nav-link:hover{
-	background-color: #616161!important;
 }
 
 .bb-link {
