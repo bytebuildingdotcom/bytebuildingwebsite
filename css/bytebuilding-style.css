@@ -43,11 +43,11 @@ br {
 }
 
 .bb-nav a:hover {
-  background-color: ##616161!important;
+  background-color: #616161!important;
 }
 
 .bb-nav a.active {
-  background-color: ##616161!important;
+  background-color: #616161!important;
 }
 
 @media screen and (max-width: 500px) {
