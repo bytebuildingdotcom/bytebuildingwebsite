@@ -27,53 +27,36 @@ br {
 }
 
 .bb-nav {
-	top: 0;
-	position: fixed;
-	height: 4rem;
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.bb-nav a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.bb-nav a:hover {
+  background-color: #000;
+}
+
+.bb-nav a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .bb-nav a {
+    float: none;
+    display: block;
     width: 100%;
-    z-index: 1;
-    background-color: #f1f1f1!important;
-}
-
-.bb-nav-link {
-	width: 24.99999%;
-	float: left;
-    font-size: 16px!importan
-}
-
-.bb-nav-link:hover{
-	background-color: #616161!important;
-}
-
-@media screen and (max-width: 992px) {
-    .bb-nav-link {
-        font-size: 12px!important;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .bb-nav-link {
-        font-size: 8px!important;
-    }
-}
-
-.bb-link {
-	display: block;
-    width: 100%;
-
-    user-select: none;
-
-    border: none;
-    display: inline-block;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
+    text-align: left;
+  }
 }
 
 .bb-content {
