@@ -28,7 +28,7 @@ br {
 
 .bb-nav {
   width: 100%;
-  background-color: #555;
+  background-color: #f1f1f1!important;
   overflow: auto;
 }
 
@@ -43,11 +43,11 @@ br {
 }
 
 .bb-nav a:hover {
-  background-color: #000;
+  background-color: ##616161!important;
 }
 
 .bb-nav a.active {
-  background-color: #04AA6D;
+  background-color: ##616161!important;
 }
 
 @media screen and (max-width: 500px) {
