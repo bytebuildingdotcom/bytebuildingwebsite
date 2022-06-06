@@ -147,6 +147,7 @@ div {
 @media screen and (max-width: 992px) {
     .bb-hover-box{
         width: 100%;
+        margin-bottom: 8rem;
     }
 }
 
