@@ -130,10 +130,14 @@ div {
 }
 
 .bb-container-image {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
 	position: relative;
 	display: block;
+}
+
+.bb-container-image-product {
+    width:100%
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .bb-hover-box {
