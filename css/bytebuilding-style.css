@@ -81,6 +81,7 @@ br {
 
 .bb-container {
     padding: 0.01em 16px;
+    min-height: 80vh;
 }
 
 .bb-container-header {
