@@ -145,8 +145,8 @@ div {
     position: absolute;
     right: 16px;
     margin: 0 auto;
-    bottom: 0;
-    padding-bottom: 6rem;
+    top: 0;
+    padding-top: 8rem;
 }
 
 .bb-hover-box {
