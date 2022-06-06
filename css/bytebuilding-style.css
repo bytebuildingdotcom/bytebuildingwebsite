@@ -132,12 +132,19 @@ div {
 .bb-container-image {
 	position: relative;
 	display: block;
+    text-align: center;
 }
 
-.bb-container-image-product {
+.bb-container-image-background {
     width:100%;
     padding-top: 8rem;
     padding-bottom: 8rem;
+}
+
+.bb-container-image-text {
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
 .bb-hover-box {
