@@ -81,11 +81,11 @@ br {
 
 .bb-container {
     padding: 0.01em 16px;
-    min-height: 80vh;
+    min-height: 90vh;
 }
 
 .bb-container-header {
-	padding-top: 32px!important;
+	padding-top: 64px!important;
     padding-bottom: 64px!important;
     text-align: center!important;
 }
