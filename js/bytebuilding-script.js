@@ -4,10 +4,10 @@ function sendContactEmail() {
   var subject = document.getElementById('bb-contact-subject');
   var message = document.getElementById('bb-contact-message');
 
-  alert(name);
-  alert(email);
-  alert(subject);
-  alert(message);
+  alert(name.value);
+  alert(email.value);
+  alert(subject.value);
+  alert(message.value);
 
   window.open('mailto:test@example.com?subject=subject&body=body');
 }
