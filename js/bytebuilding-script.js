@@ -5,5 +5,5 @@ function sendContactEmail() {
   var message = document.getElementById('bb-contact-message');
 
 
-  window.open('mailto:'+email.value+'?subject=subject&body=body');
+  window.open('mailto:'+email.value+'?subject='+subject.value+'&body='+message.value);
 }
