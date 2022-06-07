@@ -26,6 +26,6 @@ function showDivs(n) {
   dots[slideIndex-1].className += " bb-white";
 }
 
-function sendContactEmail {
+function sendContactEmail() {
   alert('dsdsd');
 }
