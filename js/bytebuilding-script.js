@@ -1,8 +1,8 @@
 function sendContactEmail() {
-  var name = document.getElemenetById('bb-contact-name');
-  var email = document.getElemenetById('bb-contact-email');
-  var subject = document.getElemenetById('bb-contact-subject');
-  var message = document.getElemenetById('bb-contact-message');
+  var name = document.getElementById('bb-contact-name');
+  var email = document.getElementById('bb-contact-email');
+  var subject = document.getElementById('bb-contact-subject');
+  var message = document.getElementById('bb-contact-message');
 
   alert(name);
   alert(email);
