@@ -167,6 +167,10 @@ a {
     height: 18rem;
 }
 
+.bb-hover-card-title {
+    text-align: center;
+}
+
 @media screen and (max-width: 992px) {
     .bb-hover-box{
         width: 100%;
