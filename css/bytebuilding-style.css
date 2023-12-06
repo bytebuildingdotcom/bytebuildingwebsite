@@ -81,6 +81,11 @@ a {
     padding-bottom: 16rem;
 }
 
+.bb-container-contact {
+    padding-bottom: 16rem;
+    width: 75%
+}
+
 .bb-container-header {
 	padding-top: 64px!important;
     padding-bottom: 64px!important;
@@ -129,6 +134,10 @@ a {
 	.bb-block-box {
 	    width: 50%;
 	}
+
+    .bb-container-contact {
+        width: 100%
+    }
 }
 
 @media screen and (max-width: 600px) {
